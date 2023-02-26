@@ -1,0 +1,13 @@
+#include <string>
+
+class Vehicle {
+private:
+  std::string make;
+
+public:
+  Vehicle(std::string make) : make(make){}
+
+  std::string getMake() {
+    return make;
+  }
+};
